@@ -18,7 +18,7 @@ body {
     transition: 0.3s;
   }
   
-  .button::after {
+ .button::after {
     content: '';
     width: 5px;
     height: 5px;
@@ -26,9 +26,11 @@ body {
     border-right: 3px solid #333333;
     transform: rotate(45deg);
   }
+ 
   
   .button:hover {
     text-decoration: none;
     background-color: #aaaaaa;
     box-shadow: 0 0 10px rgba(15, 15, 15, 0.493);
   }
+  
