@@ -1,4 +1,0 @@
-# CCC
-## sumple 
-## sample
-## yomogiのいじくりだお
