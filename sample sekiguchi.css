@@ -1,0 +1,35 @@
+body {
+    font-family:游ゴシック;
+  }
+
+.button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1em 2em;
+    width: 300px;
+    color: rgb(68, 68, 68);
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #bbbbbb;
+    box-shadow: 0 0 10px rgba(0 0 0 / .2);
+    border-radius: 6px;
+    transition: 0.3s;
+  }
+  
+.button::after {
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-top: 3px solid #333333;
+    border-right: 3px solid #333333;
+    transform: rotate(45deg);
+  }
+  
+.button:hover {
+    text-decoration: none;
+    background-color: #aaaaaa;
+    box-shadow: 0 0 10px rgba(15, 15, 15, 0.493);
+  }
+  
