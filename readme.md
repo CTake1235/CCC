@@ -1,4 +1,1 @@
-# CCC
-## sumple 
-## sample
-## yomogiのいじくりだお
+# CCC2022
